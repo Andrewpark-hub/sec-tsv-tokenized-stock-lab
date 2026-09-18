@@ -8,7 +8,7 @@
 .env.*
 !.env.example
 
-# 링크드인 초안 (공개 저장소에 올리지 않음)
+# 링크드인 초안 
 linkedin_*.txt
 linkedin_*.md
 *.draft.md
