@@ -3,7 +3,7 @@
 ![Solidity](https://img.shields.io/badge/Solidity-0.8.25-363636?style=flat-square&logo=solidity)
 ![Foundry](https://img.shields.io/badge/Foundry-1.8.1-black?style=flat-square)
 ![Tests](https://img.shields.io/badge/Foundry%20tests-13%20passed-2ea44f?style=flat-square)
-![Source](https://img.shields.io/badge/source-ZDNet%202026--09--18-0a66c2?style=flat-square)
+![Source](https://img.shields.io/badge/source-ZDNet%202026--09--17-0a66c2?style=flat-square)
 ![Level](https://img.shields.io/badge/scope-learning%20lab-orange?style=flat-square)
 
 2026년 9월 17일, 미국 SEC가 토큰화 주식 거래에 **5년간 한시적인 '혁신 면제'** 를 승인했다는 기사를 읽고 시작한 학습용 저장소입니다. 기사에는 TSV(토큰화증권 거래 플랫폼)가 지켜야 할 조건이 문장으로 나열돼 있는데, **그 문장을 Solidity로 옮기면 어디서 어긋나는지** 를 직접 확인해보고 싶었습니다. 조건 네 개(일일 거래량 한도 · 거래정지 연계 · 발행사 거부권 · 권리 승계)를 골라 각각 **`요건을 순진하게 옮긴 버전` ↔ `고친 버전`** 한 쌍으로 만들고, 요건이 실제로 깨지는 것과 수정본에서 막히는 것을 Foundry 테스트 13개로 확인했습니다.
@@ -194,7 +194,7 @@ docs/
 ![Solidity](https://img.shields.io/badge/Solidity-0.8.25-363636?style=flat-square&logo=solidity)
 ![Foundry](https://img.shields.io/badge/Foundry-1.8.1-black?style=flat-square)
 ![Tests](https://img.shields.io/badge/Foundry%20tests-10%20passed-2ea44f?style=flat-square)
-![Source](https://img.shields.io/badge/source-ZDNet%202026--09--18-0a66c2?style=flat-square)
+![Source](https://img.shields.io/badge/source-ZDNet%202026--09--17-0a66c2?style=flat-square)
 ![Level](https://img.shields.io/badge/scope-learning%20lab-orange?style=flat-square)
 
 This learning repository started from a news article on 17 September 2026: the U.S. SEC approved a **temporary, five-year "Innovation Exemption"** for trading tokenized stocks. The article lists, in prose, the conditions a TSV (Tokenized Securities Venue) has to meet — and I wanted to see for myself **where those sentences start to break once you write them in Solidity**. I picked four conditions (daily volume cap, trading-halt linkage, issuer veto, rights pass-through), built each as a pair of **`a naive translation of the requirement` ↔ `a fixed version`**, and used 13 Foundry tests to confirm both that the requirement really breaks and that the fix holds.
