@@ -193,7 +193,7 @@ docs/
 
 ![Solidity](https://img.shields.io/badge/Solidity-0.8.25-363636?style=flat-square&logo=solidity)
 ![Foundry](https://img.shields.io/badge/Foundry-1.8.1-black?style=flat-square)
-![Tests](https://img.shields.io/badge/Foundry%20tests-10%20passed-2ea44f?style=flat-square)
+![Tests](https://img.shields.io/badge/Foundry%20tests-13%20passed-2ea44f?style=flat-square)
 ![Source](https://img.shields.io/badge/source-ZDNet%202026--09--17-0a66c2?style=flat-square)
 ![Level](https://img.shields.io/badge/scope-learning%20lab-orange?style=flat-square)
 
